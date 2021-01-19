@@ -1,4 +1,4 @@
-function bypass_BoringSSL(){
+function bypass_SSLCP_BoringSSL(){
 	try {
 			Module.ensureInitialized("libboringssl.dylib");
 	}	catch(err) {
@@ -39,7 +39,7 @@ function bypass_BoringSSL(){
 if (ObjC.available) {
 	console.log('Objective-C Runtime is available!');
 	console.log('Script started!');
-	bypass_BoringSSL();
+	bypass_SSLCP_BoringSSL();
 	console.log('Script executed successfully!');
 }   else {
 		console.log('Objective-C Runtime is not available!');

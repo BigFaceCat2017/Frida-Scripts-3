@@ -41,6 +41,6 @@ if (ObjC.available) {
 	console.log('Script started!');
 	bypass_SSLCP_BoringSSL();
 	console.log('Script executed successfully!');
-}   else {
+}	else {
 		console.log('Objective-C Runtime is not available!');
 	}
